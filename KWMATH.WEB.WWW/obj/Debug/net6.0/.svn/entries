@@ -1,0 +1,245 @@
+10
+
+dir
+0
+https://source.roadwise.co.kr/svn/KYOWON_FLE_DEV/net6_webapp/KWMATH.WEB.WWW/obj/Debug/net6.0
+https://source.roadwise.co.kr/svn/KYOWON_FLE_DEV
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+
+
+
+
+
+
+
+
+
+
+
+38c713f5-337c-9b47-b17b-eb12592e6182
+
+KWMATH.WEB.WWW.GeneratedMSBuildEditorConfig.editorconfig
+file
+
+
+
+add
+
+KWMATH.WEB.WWW.csproj.FileListAbsolute.txt
+file
+
+
+
+add
+
+scopedcss
+dir
+
+
+
+add
+
+refint
+dir
+
+
+
+add
+
+KWMATH.WEB.WWW.AssemblyInfo.cs
+file
+
+
+
+add
+
+KWMATH.WEB.WWW.csproj.AssemblyReference.cache
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+KWMATH.WEB.WWW.AssemblyInfoInputs.cache
+file
+
+
+
+add
+
+KWMATH.WEB.WWW.MvcApplicationPartsAssemblyInfo.cache
+file
+
+
+
+add
+
+KWMATH.WEB.WWW.csproj.CopyComplete
+file
+
+
+
+add
+
+KWMATH.WEB.WWW.MvcApplicationPartsAssemblyInfo.cs
+file
+
+
+
+add
+
+KWMATH.WEB.WWW.assets.cache
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+KWMATH.WEB.WWW.pdb
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+apphost.exe
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+KWMATH.WEB.WWW.csproj.CoreCompileInputs.cache
+file
+
+
+
+add
+
+KWMATH.WEB.WWW.genruntimeconfig.cache
+file
+
+
+
+add
+
+.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+file
+
+
+
+add
+
+staticwebassets.development.json
+file
+
+
+
+add
+
+KWMATH.WEB.WWW.csproj.BuildWithSkipAnalyzers
+file
+
+
+
+add
+
+KWMATH.WEB.WWW.dll
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+KWMATH.WEB.WWW.RazorAssemblyInfo.cache
+file
+
+
+
+add
+
+KWMATH.WEB.WWW.RazorAssemblyInfo.cs
+file
+
+
+
+add
+
+staticwebassets
+dir
+
+
+
+add
+
+project.razor.json
+file
+
+
+
+add
+
+KWMATH.WEB.WWW.GlobalUsings.g.cs
+file
+
+
+
+add
+
+ref
+dir
+
+
+
+add
+
+staticwebassets.build.json
+file
+
+
+
+add
+

@@ -3,6 +3,8 @@ using KWMATH.WEB.WWW.Data;
 using log4net.Config;
 using Microsoft.EntityFrameworkCore;
 using KWMATH.WEB.WWW;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.Extensions.DependencyInjection.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +13,19 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ApplicationDbContext>(option => option.UseSqlServer(
     builder.Configuration.GetConnectionString("DefaultConnection")
     ));
+
+//cookie 설정
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+    {
+        options.ExpireTimeSpan = TimeSpan.FromMinutes(1);
+        options.SlidingExpiration = true;
+        options.AccessDeniedPath = "/";        
+    });
+
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddControllers();
+builder.Services.TryAddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
 builder.Logging.ClearProviders();
 builder.Logging.AddConsole();
@@ -39,7 +54,13 @@ app.UseHsts();
 
 app.UseStaticFiles();
 app.UseRouting();
+
+//인증 설정
+app.UseAuthentication();
 app.UseAuthorization();
+
+app.MapDefaultControllerRoute();
+
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");

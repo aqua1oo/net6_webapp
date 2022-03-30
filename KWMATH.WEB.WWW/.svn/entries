@@ -1,0 +1,133 @@
+10
+
+dir
+0
+https://source.roadwise.co.kr/svn/KYOWON_FLE_DEV/net6_webapp/KWMATH.WEB.WWW
+https://source.roadwise.co.kr/svn/KYOWON_FLE_DEV
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+
+
+
+
+
+
+
+
+
+
+
+38c713f5-337c-9b47-b17b-eb12592e6182
+
+log4net.config
+file
+
+
+
+add
+
+Models
+dir
+
+
+
+add
+
+.config
+dir
+
+
+
+add
+
+wwwroot
+dir
+
+
+
+add
+
+KWMATH.WEB.WWW.csproj
+file
+
+
+
+add
+
+appsettings.Development.json
+file
+
+
+
+add
+
+Properties
+dir
+
+
+
+add
+
+Views
+dir
+
+
+
+add
+
+KWMATH.WEB.WWW.csproj.user
+file
+
+
+
+add
+
+Controllers
+dir
+
+
+
+add
+
+bin
+dir
+
+
+
+add
+
+Data
+dir
+
+
+
+add
+
+appsettings.json
+file
+
+
+
+add
+
+obj
+dir
+
+
+
+add
+
+Program.cs
+file
+
+
+
+add
+

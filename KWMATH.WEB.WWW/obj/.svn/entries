@@ -1,0 +1,91 @@
+10
+
+dir
+0
+https://source.roadwise.co.kr/svn/KYOWON_FLE_DEV/net6_webapp/KWMATH.WEB.WWW/obj
+https://source.roadwise.co.kr/svn/KYOWON_FLE_DEV
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+
+
+
+
+
+
+
+
+
+
+
+38c713f5-337c-9b47-b17b-eb12592e6182
+
+project.assets.json
+file
+
+
+
+add
+
+Release
+dir
+
+
+
+add
+
+KWMATH.WEB.WWW.csproj.nuget.g.props
+file
+
+
+
+add
+
+KWMATH.WEB.WWW.csproj.EntityFrameworkCore.targets
+file
+
+
+
+add
+
+staticwebassets.pack.sentinel
+file
+
+
+
+add
+
+Debug
+dir
+
+
+
+add
+
+KWMATH.WEB.WWW.csproj.nuget.dgspec.json
+file
+
+
+
+add
+
+KWMATH.WEB.WWW.csproj.nuget.g.targets
+file
+
+
+
+add
+
+project.nuget.cache
+file
+
+
+
+add
+

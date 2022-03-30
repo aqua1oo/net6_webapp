@@ -18,11 +18,20 @@ namespace KWMATH.WEB.WWW.Data
         {
             #region DB처리          
             List<Member> memberList;            
-            memberList = _db.MemberList.FromSqlRaw<Member>(sql, parms.ToArray()).ToList();            
-            Debugger.Break();
+            memberList = _db.MemberList.FromSqlRaw<Member>(sql, parms.ToArray()).ToList();                        
             #endregion
 
             return memberList;
+        }
+
+        public int UserInt(string sql, List<SqlParameter> parms)
+        {
+            #region DB처리         
+            List<ReturnInt> result;
+            result = _db.UserCheck.FromSqlRaw<ReturnInt>(sql, parms.ToArray()).ToList();
+            #endregion
+
+            return result[0].count;
         }
     }
 }

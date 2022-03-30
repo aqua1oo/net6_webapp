@@ -1,0 +1,63 @@
+10
+
+dir
+0
+https://source.roadwise.co.kr/svn/KYOWON_FLE_DEV/net6_webapp/KWMATH.WEB.WWW/Models
+https://source.roadwise.co.kr/svn/KYOWON_FLE_DEV
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+
+
+
+
+
+
+
+
+
+
+
+38c713f5-337c-9b47-b17b-eb12592e6182
+
+User.cs
+file
+
+
+
+add
+
+ErrorViewModel.cs
+file
+
+
+
+add
+
+Member.cs
+file
+
+
+
+add
+
+Common.cs
+file
+
+
+
+add
+
+ExceptionConstant.cs
+file
+
+
+
+add
+

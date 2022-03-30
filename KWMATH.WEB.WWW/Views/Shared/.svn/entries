@@ -1,0 +1,56 @@
+10
+
+dir
+0
+https://source.roadwise.co.kr/svn/KYOWON_FLE_DEV/net6_webapp/KWMATH.WEB.WWW/Views/Shared
+https://source.roadwise.co.kr/svn/KYOWON_FLE_DEV
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+
+
+
+
+
+
+
+
+
+
+
+38c713f5-337c-9b47-b17b-eb12592e6182
+
+Error.cshtml
+file
+
+
+
+add
+
+_Layout.cshtml
+file
+
+
+
+add
+
+_ValidationScriptsPartial.cshtml
+file
+
+
+
+add
+
+_Layout.cshtml.css
+file
+
+
+
+add
+
