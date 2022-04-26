@@ -42,7 +42,8 @@ namespace KWMATH.WEB.WWW.Controllers
             #endregion
 
             if (userCheck == 0)
-            {
+            { 
+
                 //return Redirect("/");                
                 return Content("<script type='text/javascript'>alert('일치하는 회원이 존재하지않습니다. \\n\\n다시 확인하신 후 이용해 주세요.');location.href='/login/';</script>");
             }
