@@ -18,9 +18,11 @@ builder.Services.AddDbContext<ApplicationDbContext>(option => option.UseSqlServe
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
     {
-        options.ExpireTimeSpan = TimeSpan.FromMinutes(1);
+        options.ExpireTimeSpan = TimeSpan.FromHours(12);
         options.SlidingExpiration = true;
-        options.AccessDeniedPath = "/";        
+        options.AccessDeniedPath = "/";
+        options.LoginPath = "/Account/Login";
+        options.ReturnUrlParameter = CookieAuthenticationDefaults.ReturnUrlParameter;
     });
 
 builder.Services.AddHttpContextAccessor();

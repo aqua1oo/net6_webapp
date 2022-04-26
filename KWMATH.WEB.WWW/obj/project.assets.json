@@ -119,6 +119,15 @@
           "lib/netstandard2.0/MediatR.Contracts.dll": {}
         }
       },
+      "MessageBox/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net461/Gat.Controls.MessageBox.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Gat.Controls.MessageBox.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Authentication.OpenIdConnect/6.0.3": {
         "type": "package",
         "dependencies": {
@@ -2493,6 +2502,25 @@
         "lib/netstandard2.0/MediatR.Contracts.xml",
         "mediatr.contracts.1.0.1.nupkg.sha512",
         "mediatr.contracts.nuspec"
+      ]
+    },
+    "MessageBox/2.1.0": {
+      "sha512": "nhzMuxq7TPMs4q5XkEawAPiKmxnhVOtWd65/bjqnLvFyuApdB1+OObtF6cecAFn5eFuJV9gljXQzFABFDKGEeQ==",
+      "type": "package",
+      "path": "messagebox/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "lib/net35/Gat.Controls.MessageBox.dll",
+        "lib/net40/Gat.Controls.MessageBox.dll",
+        "lib/net45/Gat.Controls.MessageBox.dll",
+        "lib/net451/Gat.Controls.MessageBox.dll",
+        "lib/net452/Gat.Controls.MessageBox.dll",
+        "lib/net46/Gat.Controls.MessageBox.dll",
+        "lib/net461/Gat.Controls.MessageBox.dll",
+        "messagebox.2.1.0.nupkg.sha512",
+        "messagebox.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Authentication.OpenIdConnect/6.0.3": {
@@ -7673,6 +7701,7 @@
     "net6.0": [
       "EntityFramework >= 6.2.0",
       "EntityFramework.ko >= 6.2.0",
+      "MessageBox >= 2.1.0",
       "Microsoft.AspNetCore.Authentication.OpenIdConnect >= 6.0.3",
       "Microsoft.AspNetCore.Identity.UI >= 6.0.3",
       "Microsoft.EntityFrameworkCore >= 6.0.3",
@@ -7731,6 +7760,10 @@
           "EntityFramework.ko": {
             "target": "Package",
             "version": "[6.2.0, )"
+          },
+          "MessageBox": {
+            "target": "Package",
+            "version": "[2.1.0, )"
           },
           "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
             "target": "Package",
@@ -7796,6 +7829,16 @@
       "warningLevel": 1,
       "message": "프로젝트 대상 프레임워크 'net6.0' 대신 '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8'을(를) 사용하여 패키지 'EntityFramework.ko 6.2.0'을(를) 복원했습니다. 이 패키지는 프로젝트와 완벽하게 호환되지 않을 수 있습니다.",
       "libraryId": "EntityFramework.ko",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "프로젝트 대상 프레임워크 'net6.0' 대신 '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8'을(를) 사용하여 패키지 'MessageBox 2.1.0'을(를) 복원했습니다. 이 패키지는 프로젝트와 완벽하게 호환되지 않을 수 있습니다.",
+      "libraryId": "MessageBox",
       "targetGraphs": [
         "net6.0"
       ]

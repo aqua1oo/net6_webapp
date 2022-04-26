@@ -10,8 +10,6 @@ namespace KWMATH.WEB.WWW.Controllers
         {
             //cookie 생성 테스트
             //var test = User.Identity.IsAuthenticated ? User.FindFirst("Test").Value : "";
-
-
             return View();
         }
 

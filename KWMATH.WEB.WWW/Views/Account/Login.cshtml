@@ -4,8 +4,8 @@
 @using (Html.BeginForm("Login", "Account", FormMethod.Post, new { name = "loginForm", id = "loginForm"}))
 {
     <div>
-        <input type="hidden" name="site_id" value="www" />
-        <input type="hidden" name="return_url" value="/" />
+        <input type="hidden" name="site_id" id="site_id" value="www" />
+        <input type="hidden" name="return_url" id="return_url" value="@ViewBag.returnUrl" />
         <div class="container login">
             <!-- [s]contnet -->
             <div class="content">

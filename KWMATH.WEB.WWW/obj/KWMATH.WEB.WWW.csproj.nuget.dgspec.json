@@ -51,6 +51,10 @@
               "target": "Package",
               "version": "[6.2.0, )"
             },
+            "MessageBox": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
               "target": "Package",
               "version": "[6.0.3, )"
